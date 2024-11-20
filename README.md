@@ -26,6 +26,14 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+## Answer
+
+
+
+## Sources
+
+Prompted ChatGPT to help me create the tests. Asked it to create four tests cases that that will return the path to the target node. Wrote the rest of the test code myself basing it on previous test from other exercises.
+
 ## Bonus
 
 Implement and analyze breadth-first search.
