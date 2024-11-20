@@ -28,7 +28,7 @@ answer, including your reasoning, to this markdown file.
 
 ## Answer
 
-
+Very similar to the augmenting path exercise, our worst case is if we have to visit every single vertex and edge to find our solution (if there is one).
 
 ## Sources
 
