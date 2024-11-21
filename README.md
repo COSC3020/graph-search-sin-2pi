@@ -26,6 +26,20 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+## Answer
+
+Very similar to the augmenting path exercise, our worst case is if we have to visit every single vertex and edge to find our solution (if there is one).
+
+We visit every vertex, done inside the helper function.
+
+At every vertex, we check all of its edges as well.
+
+This leads us to having a worst case time complexity of $\Theta (|V| + |E|)$, where V is the number of vertices and E is the number of edges. 
+
+## Sources
+
+Prompted ChatGPT to help me create the tests. Asked it to create four tests cases that that will return the path to the target node. Wrote the rest of the test code myself basing it on previous test from other exercises.
+
 ## Bonus
 
 Implement and analyze breadth-first search.
