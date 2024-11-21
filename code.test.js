@@ -78,8 +78,8 @@ const tests = [
 tests.forEach(test => {
     const output = test.func(test.graph, test.start, test.target);
     if (arraysEqual(output, test.result)) {
-        console.log(`✓ ${test.name} successful`);
+        console.log(`${test.name} successful`);
     } else {
-        console.log(`✗ ${test.name} failed: ${output} != ${test.result}`);
+        console.error(`${test.name} failed: ${output} != ${test.result}`);
     }
 });
